@@ -1,0 +1,388 @@
+.futuresContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  background: linear-gradient(356deg, #2b1d37 16.42%, #1c152b 97.35%);
+}
+
+.crossBox {
+  width: 100%;
+  /* height: 669px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #485c841c 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 16px 12px;
+  margin-bottom: 25px;
+}
+.CheckBoxContainer {
+  width: 100%;
+  margin-bottom: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkBoxInnerBox {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkBoxInnerBox > div {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  background: #0d0b12;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkBoxInnerBox p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px !important;
+}
+
+.usdTBox {
+  width: 100%;
+}
+.sellAbuyBtnBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 49px;
+}
+.SABbtn {
+  width: 40%;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.SABbtn p {
+  color: #18141c;
+  font-family: Aldrich;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+.sellAbuyBtnBox :last-child p {
+  color: #fff;
+}
+.FutuUSDTextBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.FutuUSDTextBox :first-child {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+.FutuUSDTextBox :last-child {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.orderBookBox {
+  width: 100%;
+  min-width: 322px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #485c841c 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.oderBookHeader {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px !important;
+  margin: 16px !important;
+}
+.orderTableRow {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 14px;
+  border-bottom: 1px solid #c0c0c02b;
+}
+.orderTableRow_item {
+  width: 85px;
+}
+.tableHeaderText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.tableRedText {
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tableWhiteText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.totalUSDText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.totalUSDspanText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.graphBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.graphTopPriceBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background: linear-gradient(96deg, #485c841c 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.GTPTopBox {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #8f8f8f71;
+}
+.GTPTabeBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+.GTPTopHeader {
+  color: #fff;
+  text-align: center;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 36px !important;
+}
+.GTPDropBox {
+  width: 130px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 7px 18px;
+  border-radius: 8px;
+  /* opacity: 0.8; */
+  background: #18141c;
+  position: relative;
+  cursor: pointer;
+}
+.dropMenuItem p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  margin-left: 4px !important;
+}
+.GTPTopBtnText {
+  color: var(--Primary-white, #fff);
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 25.765px; /* 184.039% */
+  margin-right: 5px !important;
+}
+.GTPTabeItem :first-child {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.GTPTabeItem :last-child {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.gtpTabBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.gtpTabItem {
+  border-radius: 16px 16px 0px 0px;
+  width: 105px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.gtpTabItem p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  line-height: normal;
+}
+.gptTabCorsIcon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+}
+.innerGraphBox {
+  width: 100%;
+  height: 530px;
+  background: linear-gradient(96deg, #485c841c 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 16px;
+  margin-left: 0px;
+}
+.LPDrop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.LPDrop :first-child {
+  position: relative;
+  cursor: pointer;
+}
+.LPDrop :last-child {
+  border: 0;
+}
+.smField {
+  padding-left: 15px;
+}
+.FGTPTabeItem {
+  width: 111px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: inherit !important;
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .orderBookBox {
+    width: 48%;
+    margin-left: 16px;
+  }
+  .crossBox {
+    width: 48%;
+    min-width: 352px;
+    margin-bottom: 0;
+  }
+  .futuresContainer {
+    flex-direction: row;
+    align-items: inherit;
+  }
+  .gtpTabItem {
+    width: 201px;
+    height: 57px;
+  }
+  .gptTabCorsIcon {
+    top: 5px;
+    right: 8px;
+  }
+  .FGraphBox {
+    min-width: 616px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .crossBox {
+    width: 25%;
+  }
+  .futuresContainer {
+    padding: 50px;
+    flex-wrap: inherit;
+  }
+  .orderBookBox {
+    width: 25%;
+    margin: 0 16px;
+  }
+  .graphBox {
+    width: 50%;
+    margin-top: 0;
+  }
+  .GTPTabeItem :first-child {
+    font-size: 20px !important;
+  }
+}

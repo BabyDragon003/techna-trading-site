@@ -1,0 +1,362 @@
+.OptionsBeginners {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(96deg, #2b1d37 16.42%, #1c152b 97.35%);
+}
+.OBUsdBox {
+  width: 100%;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(18px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.GTPTabeItem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.dropTabCalendar {
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 15px; */
+  border-radius: 8px;
+  opacity: 1;
+  background: #18141c;
+  cursor: pointer;
+  position: relative;
+}
+.dropTab {
+  width: 243px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 15px; */
+  border-radius: 8px;
+  opacity: 1;
+  background: #18141c;
+  cursor: pointer;
+  position: relative;
+}
+.dropTab p {
+  color: #fff;
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 25.765px; /* 184.039% */
+  margin-right: 6px !important;
+}
+.BTCGraphBox {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  background: linear-gradient(141deg, #485c844a 16.42%, #38383840 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+}
+.btcGHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.btcGCenterHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btcGCenterHeader_2Text {
+  color: #fff;
+  text-align: center;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 48px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 36px; /* 75% */
+}
+.btc_header_P_text {
+  color: #94909c;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btc_Header_3Text {
+  color: #ff7d61;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btc_header_btnBox {
+  width: 317px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btcGCenterHeader :first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btcGCenterHeader :last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.callandGrapghBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: start;
+}
+.callBox {
+  width: 100%;
+  margin-top: 16px;
+}
+.braph_Box {
+  width: 100%;
+}
+.callHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+}
+.callHeader :first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.callHeader :first-child p {
+  color: #fff;
+  text-align: center;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 36px; /* 150% */
+}
+.callCardBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.callCard {
+  width: 323px;
+  /* height: 195px; */
+  padding: 16px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(260deg, #485c844b 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  /* margin-right: 18px; */
+  margin-bottom: 16px;
+}
+.callCardHeader_text {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.callBtcBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.callBtcBox p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.callBtcBoxText {
+  margin-bottom: 6px;
+}
+.callBtcBoxText p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.btcM_text_b {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.callCGText {
+  color: var(--success-success, #50cd89);
+  font-family: "Inter" !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 66.667% */
+}
+.callCRedText {
+  color: #f44336;
+  font-family: "Inter" !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 66.667% */
+}
+.callCWText {
+  color: #fff;
+  font-family: "Inter" !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 66.667% */
+}
+.callCardBtnBox {
+  width: 100%;
+}
+.CandlCartBox {
+  width: 100%;
+}
+.apexcharts-canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.datePicker {
+  width: 100%;
+  height: 100%;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+.obGraphBox {
+  height: 780px !important;
+}
+.braph_Box {
+  margin-bottom: 24px;
+}
+/* Tab view*/
+@media only screen and (min-width: 768px) {
+  .dropTab {
+    width: 162px;
+  }
+  .callBox {
+    margin-top: 0;
+    max-width: 700px;
+  }
+  .callandGrapghBox {
+    width: 100%;
+    align-items: center;
+  }
+  .OBUsdBox {
+    height: 100px;
+    flex-direction: row;
+    padding: 0 5px;
+  }
+  .GTPTabeItem {
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    margin-top: 0px;
+  }
+  .btcGHeader {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: inherit;
+  }
+  .callHeader {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: inherit;
+    height: unset;
+  }
+  .callCardBox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .OptionsBeginners {
+    padding: 50px;
+  }
+  .dropTab {
+    width: 243px;
+  }
+  .BTCGraphBox {
+    /* height: 484px; */
+  }
+  .callBox {
+    width: 48%;
+    margin-top: 16px;
+    padding: 24px 24px 24px 0;
+  }
+  .callandGrapghBox {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .braph_Box {
+    width: 48%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .OBUsdBox {
+    padding: 0 24px;
+  }
+  .GTPTabeItem {
+    width: 122px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
+  .callBox {
+    min-width: 680px;
+    max-width: 700px;
+  }
+}

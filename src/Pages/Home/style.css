@@ -1,0 +1,108 @@
+.s_nav_ul {
+  overflow: hidden;
+  padding: 0px !important;
+}
+
+.col-md-7 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .landingTeamBox {
+    flex-direction: column;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .s_nav_ul {
+    width: auto !important;
+  }
+
+  .landingTeamBox {
+    flex-direction: row;
+  }
+}
+
+.MuiAccordion-root {
+  margin: 16px 0;
+  background-color: rgb(255 255 255 / 5%) !important;
+  backdrop-filter: blur(15px);
+  border-radius: 8px !important;
+}
+
+.MuiAccordionDetails-root p {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 1rem;
+}
+
+.MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.MuiAccordionSummary-content p {
+  color: #FFF;
+  font-family: "ClashDisplay-Medium";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.MuiSvgIcon-root {
+  fill: #FFF !important;
+  font-size: 2rem !important;
+}
+
+.MuiAccordionSummary-root {
+  padding: 20px !important;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px !important;
+  border: 1px solid rgba(18, 255, 255, 0.70) !important;
+}
+
+.Mui-expanded {
+  margin: 0 !important;
+}
+
+.Mui-expanded .MuiAccordionSummary-root {
+  background: linear-gradient(152deg, rgba(18, 255, 255, 0.70) 9.96%, rgba(66, 255, 255, 0.70) 100%);
+  border-radius: 8px 8px 0 0 !important;
+}
+
+@media only screen and (max-width:760px) {
+  .MuiAccordion-root {
+    margin: 6px 0;
+    border-radius: 5px !important;
+  }
+  
+  .MuiAccordionDetails-root p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .MuiAccordionSummary-content {
+    margin: 0 !important;
+  }
+  
+  .MuiAccordionSummary-content p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: 2rem !important;
+  }
+  
+  .MuiAccordionSummary-root {
+    padding: 10px !important;
+  }
+}

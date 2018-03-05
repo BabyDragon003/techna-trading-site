@@ -1,0 +1,3 @@
+.sideBarScrollBox > div {
+  overflow-x: hidden !important;
+}

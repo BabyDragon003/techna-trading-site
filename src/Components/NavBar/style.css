@@ -1,0 +1,294 @@
+.navBar {
+  width: 100%;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  opacity: 1;
+  background: linear-gradient(96deg, #1d2637 16.42%, #251731 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.logoBox {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.logoBox img {
+  width: 80px;
+}
+
+.logoBox p {
+  color: #fff;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 32px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.MenuBox {
+  display: none;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navMenuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navMenuItem p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+.currencyBox {
+  width: 145px;
+  height: 54px;
+  border-radius: 8px;
+  background: #18141c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bitCountText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.btcText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 760px) {
+  .navBar {
+    padding: 0 15px;
+  }
+
+  .spotContainer {
+    padding: 15px;
+  }
+
+  .spotF_Box {
+    flex-wrap: wrap;
+  }
+
+  .spotSide_Menu {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    margin: 0 0 8px 0;
+  }
+
+  /* .spotGraphBox {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    margin: 8px 0 0 0;
+  } */
+
+  .spotLBoxTable {
+    overflow: auto;
+  }
+
+  .tableRowItem {
+    white-space: nowrap;
+  }
+
+  .tableRow {
+    gap: 15px;
+  }
+
+  .tableRowItem p {
+    font-size: 14px !important;
+  }
+
+  .sideBoxMenu p,
+  .sideMenuGText {
+    font-size: 14px !important;
+  }
+
+  .spotTabelHeaderText {
+    font-size: 18px !important;
+  }
+
+  .currencyBox {
+    display: none;
+  }
+
+  .tableRow {
+    min-width: 1080px;
+  }
+
+  .placeholderRefres_box {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1023px) {
+  .navBar {
+    padding: 0 15px;
+  }
+
+  .spotContainer {
+    padding: 15px;
+  }
+
+  .spotF_Box {
+    flex-wrap: wrap;
+  }
+
+  .spotSide_Menu {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 0 0 8px 0;
+  }
+
+  /* .spotGraphBox {
+    width: calc(100% - 320px);
+    height: auto;
+    padding: 15px;
+    margin: 8px 0 0 0;
+  } */
+
+  .spotLBoxTable {
+    overflow: auto;
+  }
+
+  .tableRowItem {
+    white-space: nowrap;
+  }
+
+  .tableRow {
+    gap: 15px;
+  }
+
+  .tableRowItem p {
+    font-size: 14px !important;
+  }
+
+  .sideBoxMenu p,
+  .sideMenuGText {
+    font-size: 14px !important;
+  }
+
+  .spotTabelHeaderText {
+    font-size: 18px !important;
+  }
+
+  .tableRow {
+    min-width: 1080px;
+  }
+
+  .placeholderRefres_box {
+    margin: 0;
+  }
+}
+.sideMune {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #202537;
+  z-index: 999;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.sideMenuCross {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  color: #fff;
+  font-size: 37px !important;
+}
+.hamMenu {
+  color: #fff;
+  font-size: 32px !important;
+}
+.sideInnerBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.sideMenuItemRow {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid#c0c0c017;
+}
+.sideMenuItemRow p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+/* Tab view*/
+@media only screen and (min-width: 768px) {
+  .sideMune {
+  }
+  .sideInnerBox {
+    width: 50%;
+  }
+  /* .spotGraphBox {
+    margin-left: 12px;
+  } */
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .MenuBox {
+    display: flex;
+  }
+  .sideMune {
+    display: none;
+  }
+  .hamMenu {
+    display: none !important;
+  }
+  .logoBox {
+    width: 198px;
+    justify-content: space-between;
+  }
+}

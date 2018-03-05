@@ -1,0 +1,45 @@
+.tokemInnerContainer {
+  width: 1055px !important;
+}
+.connectWalBtn {
+  width: 275px !important;
+}
+.tokemInnerContainer {
+  width: 98% !important;
+}
+.TokemScrollOuterBox {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: start !important;
+}
+.tokemDropBox {
+  width: 80px !important;
+  background: #18141c00 !important;
+}
+.tokemDropItem {
+  background: #3c273f !important;
+  border: 1px solid !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+.tokemFInput {
+  position: relative;
+}
+.tokemFInputDVal {
+  position: absolute;
+  top: 16px !important;
+  right: 16px !important;
+}
+.tokemInputMainBox {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1000px) {
+  .tokemInnerContainer {
+    width: 1055px !important;
+  }
+}

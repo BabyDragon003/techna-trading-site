@@ -1,0 +1,251 @@
+.optiospro {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(96deg, #2b1d37 16.42%, #1c152b 97.35%);
+}
+.optFTb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(260deg, #485c844b 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* border-radius: 16px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: scroll;
+}
+.optLTb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(260deg, #485c844b 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* border-radius: 16px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: scroll;
+}
+.optRow {
+  width: 730px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #00000029;
+  padding: 5px 0;
+}
+.optrowItem {
+  width: 68px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.optTableBox {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.optHeaderRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.potT_headerText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.potT_RedText {
+  color: #ff7d61;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.potT_whiteText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.optMTb {
+  height: unset;
+  background: #0000007a;
+  display: flex;
+  flex-direction: row;
+}
+.optMRowItem {
+  width: 90px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+.optMRowItem p {
+  color: #fff;
+  text-align: center;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.optBottomBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.optBotFBox {
+  width: 100%;
+  background: linear-gradient(11deg, #485c844b 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.optLBDropBox {
+  width: 100%;
+}
+.gptLCText {
+  width: 135px;
+}
+.optCUstTextBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.optCUstTextBox p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.optCUstText_Box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.optCUstText_Box p {
+  font-family: "Inter" !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 66.667% */
+}
+.optCUstTextItemBox {
+  width: 34%;
+}
+.optBotLBox {
+  width: 100%;
+  background: linear-gradient(11deg, #485c844b 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.optrowLOPtItem {
+  width: 87px;
+}
+.potT_LheaderText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Tab view*/
+@media only screen and (min-width: 768px) {
+  .optBotLBox {
+    width: 48%;
+    border-radius: 16px;
+  }
+  .optTableBox {
+    flex-direction: row;
+  }
+  .optFTb {
+    width: 47%;
+    border-radius: 16px 0px 0px 16px;
+  }
+  .optLTb {
+    width: 47%;
+    border-radius: 0 16px 16px 0;
+  }
+  .optMTb {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .optBottomBox {
+    flex-direction: row;
+    align-items: inherit;
+  }
+  .optBotFBox {
+    width: 48%;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .optBotLBox {
+    margin-left: 10px;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .optFTb {
+    overflow: inherit;
+  }
+  .optLTb {
+    overflow: inherit;
+  }
+  .optRow {
+    width: 100%;
+  }
+  .optBotLBox {
+    width: 68%;
+    overflow: inherit;
+  }
+  .optiospro {
+    padding: 15px 40px 40px 40px;
+  }
+  .optBotFBox {
+    width: 30%;
+    min-width: 394px;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1233px) {
+  .optBotLBox .optRow {
+    width: 730px;
+  }
+  .optBotLBox {
+    overflow: scroll;
+  }
+}

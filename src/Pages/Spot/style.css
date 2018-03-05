@@ -1,0 +1,531 @@
+.spotContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(96deg, #2b1d37 16.42%, #1c152b 97.35%);
+}
+
+.spotFBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.spotSideMenu {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #485c841c 16.42%, #38383824 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.spotNavMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.sideBoxMenu {
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.sideMenuGText {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 5px !important;
+}
+
+.sideBoxMenu p {
+  color: #fff;
+  font-family: "Inter" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  /* margin: 0 30px !important; */
+}
+
+.market {
+  width: 113px;
+}
+
+.limit {
+  width: 97px;
+  margin: 0 5px;
+}
+
+.SMarket {
+  width: 140px;
+}
+
+.spotGraphBox {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #49558f17 16.42%, #38383859 97.35%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+}
+
+.sideBoxMene {
+  width: 118px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  opacity: 0.4;
+  background: #18141c;
+}
+
+.sideBoxMene p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.spotOderBox {
+  width: 100%;
+  /* background: #383838; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.spotLBoxHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.spotTabelHeaderText {
+  color: #fff;
+  text-align: center;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 36px !important;
+}
+
+.oderDropBox {
+  width: 179px;
+  height: 49px;
+  border-radius: 8px;
+  /* opacity: 0.4; */
+  background: #18141c48;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.oderDropBox p {
+  color: var(--Primary-white, #fff);
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16p !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 25.765px !important;
+}
+
+.spotLBoxTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabeinnerSection {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.usdTHeader {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.usdSelectorBox2 {
+  width: 145px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  position: relative;
+}
+
+.usdSelectorBox {
+  width: 145px;
+  border-radius: 4px;
+  border: 2px solid #3192a7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  position: relative;
+}
+
+.usdSelectorBox p, .usdSelectorBox2 p {
+  color: #fff;
+  font-family: "ClashDisplay-Regular" !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  margin-left: 4px !important;
+}
+
+.dwonArrow {
+  margin-left: 8px !important;
+  cursor: pointer;
+}
+
+.usdTBox {
+  width: 242px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  border: 2px solid #3192a7;
+}
+
+.usdTBox > div {
+  width: 50%;
+  /* padding-left: 15px; */
+  display: flex;
+  align-items: center;
+}
+
+.usdTBox > :last-child {
+  border-left: 2px solid #3192a7;
+}
+
+.usdTBox p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.usdTHeaderValue {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.usdTHeaderValueItem {
+  width: 20%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.usdTHeaderValueItem p {
+  color: #fff;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.ActiveUsdBtn p {
+  color: #fff;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.ActiveUsdBtn {
+  border-radius: 4px;
+  opacity: 0.5;
+  background: #18141c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholderRefres_box {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.RusdTBox > :last-child {
+  border: 0px;
+}
+.RusdHourTBox {
+  cursor: pointer;
+}
+.RusdTBox {
+  display: flex;
+  align-items: center;
+  /* padding: 0 15px; */
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.buyBtn {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #41f8f8;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.buyBtn p {
+  color: #18141c;
+  font-family: "Aldrich", sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.tabsectionLabel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sideMenuGTextL {
+  margin-right: 38% !important;
+}
+
+.SMsideMenuGTextL {
+  margin-right: 45% !important;
+}
+
+.tableRow {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #236675;
+}
+
+.tableRowItem {
+  width: 120px;
+  display: flex;
+  align-items: start;
+}
+
+.tableRowItem p {
+  color: #fff;
+  text-align: right;
+  font-family: "inter" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 36px;
+  /* 225% */
+}
+
+.lineGraphBox {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 45px;
+}
+
+.lineGraphBox canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.graphBtnBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.graphBtn {
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.graphBtn p {
+  font-family: "Inter" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.lineBtn {
+  width: 84px;
+}
+
+.jpnsBtn {
+  width: 118px;
+}
+.dropMenu {
+  width: 100% !important;
+  position: absolute;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.dropMenuItem {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ffffff1f;
+  background: #18141c;
+  transition: all 0.5s;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.dropMenuItem:hover {
+  background: rgb(42 35 49);
+}
+.dropMenuItem p {
+  font-family: "ClashDisplay-Regular" !important;
+}
+
+.mpusd {
+  top: 48px;
+  left: 0;
+}
+.usdItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.usdItem img {
+  width: 24px;
+}
+.inputFiled {
+  width: 100%;
+  height: 100%;
+  background: #18141c00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  padding-left: 5px;
+}
+.inputFiled :focus {
+  outline: none;
+}
+/* Tab view*/
+@media only screen and (min-width: 768px) {
+  .spotSideMenu {
+    width: 40%;
+    margin-right: 12px;
+    margin-bottom: 0px;
+  }
+  .spotFBox {
+    flex-direction: row;
+  }
+  .spotGraphBox {
+    width: 70%;
+    height: auto;
+    margin-left: 12px;
+  }
+  .SMarket {
+    width: 270px;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .spotSideMenu {
+    width: 30%;
+    height: auto;
+  }
+  .spotGraphBox {
+    padding: 24px;
+  }
+  .SMarket {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 491px) and (max-width: 767px) {
+  .spotFBox {
+    align-items: center !important;
+  }
+  .spotSideMenu {
+    max-width: inherit !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .spotContainer {
+    padding: 50px;
+  }
+}

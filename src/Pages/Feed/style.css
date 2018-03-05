@@ -1,0 +1,538 @@
+.profile-section {
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(356deg, #2b1d37 16.42%, #1c152b 97.35%);
+}
+
+.profile-section .tn_right_sid_bar {
+  right: 30px !important;
+}
+
+.profile-sidebar {
+  width: 88px;
+  height: 100vh;
+  background-color: #18141c;
+  padding: 10px;
+}
+
+.profile-sidebar .avatar {
+  padding: 22px 9px;
+  width: 68px;
+  display: block;
+}
+
+.profile-sidebar .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-sidebar .designation {
+  margin: 12px 9px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7f8085;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.profile-sidebar .designation .badge {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #18141c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffffff;
+  letter-spacing: normal;
+}
+
+.profile-sidebar hr {
+  margin: 12px auto;
+  width: 100%;
+  height: 1px;
+  background: url(../../assets/img/line.png) no-repeat center;
+  border: none;
+  opacity: 1;
+}
+
+.profile-sidebar .grey-box a {
+  margin: 16px 9px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #292d35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.profile-sidebar .grey-box a .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.profile-menu {
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.5s;
+  background: linear-gradient(95.58deg, #292540 16.42%, #261e33 97.35%);
+}
+
+.profile-menu .logo {
+  padding: 30px;
+  text-align: center;
+}
+
+.profile-menu .logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-menu .MuiListItemIcon-root {
+  min-width: 30px;
+  color: #ffffff;
+}
+
+.profile-menu .MuiTypography-root {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.profile-menu .MuiListItemButton-root {
+  padding: 10px 15px 10px 25px;
+}
+
+.profile-content {
+  padding: 40px 80px 40px 40px;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.profile-content .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-content .heading h2 {
+  font-family: "ClashDisplay-Regular";
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: normal;
+  display: block;
+  color: #ffffff;
+}
+
+.profile-content .heading h6 {
+  font-family: "ClashDisplay-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+  display: block;
+  color: #918e99;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-content .post-box {
+  margin: 20px auto;
+  width: 100%;
+  min-height: 160px;
+  padding: 24px;
+  background: #ffffff0d;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-content .post-box .avatar {
+  width: 54px;
+  height: 54px;
+}
+
+.profile-content .post-box .avatar img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-content .post-box .form {
+  width: calc(100% - 75px);
+  min-height: 110px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  border: 1px solid #4d455a;
+  position: relative;
+}
+
+.profile-content .post-box .form textarea {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  height: 110px;
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  overflow: auto;
+  resize: none;
+}
+
+.profile-content .post-box .form input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  width: 110px;
+  height: 40px;
+  background-color: #41f7f8;
+  border: none;
+  font-family: "Aldrich", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+  display: block;
+  color: #18141c;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.profile-content .comment-box {
+  margin: 20px auto;
+  width: 100%;
+  background: linear-gradient(95.58deg, #2b2845 16.42%, #241c33 97.35%);
+  border-radius: 16px;
+}
+
+.profile-content .comment-box .comment {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-content .comment-box .comment .avatar {
+  width: 54px;
+  height: 54px;
+}
+
+.profile-content .comment-box .comment .avatar figure img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-content .comment-box .comment .avatar .conntent {
+  margin-top: -25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Aldrich", sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.profile-content .comment-box .comment .content {
+  width: calc(100% - 75px);
+}
+
+.top-comment-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-comment-content h3 {
+  font-family: "ClashDisplay-Regular";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.top-comment-content h3 span {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top-comment-content h4 {
+  font-family: "Aldrich", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: right;
+}
+
+.top-comment-content h4 span {
+  color: #15bffd;
+}
+
+.mid-comment-content p {
+  font-family: "ClashDisplay-Regular";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  padding: 8px 0;
+}
+
+.bot-comment-content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot-comment-content .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.bot-comment-content .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bot-comment-content .badge {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #18141c;
+  display: inline-flex;
+  height: 24px;
+  padding: 2px 12px;
+  align-items: center;
+  flex-shrink: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.bot-comment-content .badge a {
+  color: #ffffff;
+}
+
+.profile-content .comment-box .comment-post {
+  padding: 24px;
+  box-shadow: 0px -4px 4px 0px #00000010;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-content .comment-box .comment-post .avatar {
+  width: 54px;
+  height: 54px;
+}
+
+.profile-content .comment-box .comment-post .avatar img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-content .comment-box .comment-post .form {
+  width: calc(100% - 75px);
+  height: 54px;
+  background: #282c33;
+  border: 1px solid #4d455a;
+  position: relative;
+}
+
+.profile-content .comment-box .comment-post .form textarea {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  height: 54px;
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  overflow: auto;
+  resize: none;
+}
+
+.profile-content .comment-box .comment-post .form input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  width: 110px;
+  height: 54px;
+  background-color: #41f7f8;
+  border: none;
+  font-family: "Aldrich", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+  display: block;
+  color: #18141c;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 760px) {
+  .profile-sidebar {
+    width: auto;
+    padding: 0;
+    display: none;
+  }
+
+  .profile-menu {
+    display: none;
+  }
+
+  .profile-section .tn_right_sid_bar {
+    display: none;
+  }
+
+  .profile-content {
+    padding: 15px;
+  }
+
+  .profile-content .heading h2 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .profile-content .heading h6 {
+    font-size: 12px;
+  }
+
+  .profile-content .post-box {
+    padding: 14px;
+  }
+
+  .profile-content .post-box .form textarea {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .top-comment-content h3 {
+    font-size: 14px;
+  }
+
+  .top-comment-content h4 {
+    font-size: 10px;
+    text-align: right;
+    letter-spacing: 0;
+  }
+
+  .top-comment-content h4 span {
+    display: block;
+  }
+
+  .profile-content .comment-box .comment {
+    padding: 14px;
+  }
+
+  .mid-comment-content p {
+    font-size: 14px;
+  }
+
+  .bot-comment-content .right {
+    display: none;
+  }
+
+  .profile-content .comment-box .comment-post {
+    padding: 14px;
+  }
+
+  .profile-content .comment-box .comment-post .avatar {
+    display: none;
+  }
+
+  .profile-content .comment-box .comment-post .form {
+    width: 100%;
+  }
+
+  .profile-content .comment-box .comment-post .form textarea {
+    font-size: 14px;
+  }
+
+  .profile-content .post-box .form input[type="submit"],
+  .profile-content .comment-box .comment-post .form input[type="submit"] {
+    padding: 0 20px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1200px) {
+  .profile-content {
+    padding: 15px 80px 15px 15px;
+  }
+}

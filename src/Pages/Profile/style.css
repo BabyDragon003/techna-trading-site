@@ -1,0 +1,433 @@
+.profile-details {
+    margin: 20px auto;
+    padding: 24px;
+    width: 100%;
+    background: linear-gradient(95.58deg, #3c3348 16.42%, #2b1e3a 97.35%);
+    border-radius: 16px;
+    min-height: 220px;
+}
+
+.profile-boxes {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-boxes .box {
+    flex: 32.1%;
+    max-width: 32.1%;
+    padding: 24px;
+    background: linear-gradient(95.58deg, #2b2847 16.42%, #251d32 97.35%);
+    min-height: 300px;
+}
+
+.profile-boxes .box img {
+    margin-bottom: 15px;
+}
+
+.profile-boxes .box h3 {
+    font-family: "ClashDisplay-Regular";
+    font-size: 22px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.profile-boxes .box p {
+    font-family: "ClashDisplay-Regular";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #B5B5C3;
+    margin-bottom: 1rem;
+}
+
+.dp-nm-lv-dt {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    position: relative;
+}
+
+.dp-nm-lv-dt .profile-dp {
+    width: 150px;
+    height: 150px;
+}
+
+.dp-nm-lv-dt .profile-dp img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.dp-nm-lv-dt .profile-nm {
+    width: calc(100% - 170px);
+}
+
+.dp-nm-lv-dt .profile-nm h2 {
+    font-family: "ClashDisplay-Regular";
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.dp-nm-lv-dt .profile-nm ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.dp-nm-lv-dt .profile-nm button {
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 40px;
+    background-color: #41f7f8;
+    border: 1px solid #41f7f8;
+    color: #18141C;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dp-nm-lv-dt .profile-nm button.btn-follow {
+    background-color: #41f7f8;
+    border: 1px solid #41f7f8;
+    color: #18141C;
+}
+
+.dp-nm-lv-dt .profile-nm button.btn-message {
+    background-color: #282d33;
+    border: 1px solid #3e4148;
+    color: #FFFFFF;
+}
+
+.dp-nm-lv-dt .profile-nm button.btn-boost {
+    background-color: #17141b;
+    border: 1px solid #17141b;
+    color: #FFFFFF;
+}
+
+.dp-nm-lv-dt .profile-lv {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dp-nm-lv-dt .profile-lv ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.dp-nm-lv-dt .profile-lv ul li span {
+    border-radius: 24px;
+    background: rgba(190, 249, 146, 0.20);
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #BEF992;
+    font-family: "ClashDisplay-Regular";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.dp-nm-lv-dt .profile-lv p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "ClashDisplay-Regular";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.fo-bo-id-st {
+    padding-left: 170px;
+}
+
+.fo-bo-id-st ul {
+    margin: -40px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.fo-bo-id-st ul li a {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    width: 130px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "ClashDisplay-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: block;
+    padding: 15px;
+}
+
+.fo-bo-id-st ul li a strong {
+    display: block;
+    font-family: "ClashDisplay-Bold";
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.id-st-fo-fo {
+    margin-top: 30px;
+    margin-bottom: -24px;
+}
+
+.id-st-fo-fo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.id-st-fo-fo ul li a {
+    display: flex;
+    width: 128px;
+    padding: 8px 24px 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    font-family: "ClashDisplay-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+.id-st-fo-fo ul li a.select {
+    border-bottom: 2px solid #FFF;
+    background: #51485b;
+}
+
+.read-more a {
+    margin: 20px 0 0 0;
+    padding: 8px 20px;
+    width: auto;
+    height: 40px;
+    background-color: #41f7f8;
+    border: none;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #18141C;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width:760px) {
+    .profile-boxes .box {
+        flex: 100%;
+        max-width: 100%;
+        padding: 14px;
+        min-height: 300px;
+    }
+
+    .profile-boxes .box h3 {
+        font-size: 18px;
+    }
+
+    .profile-details {
+        padding: 14px;
+        overflow: hidden;
+    }
+
+    .profile-boxes .box p {
+        font-size: 14px;
+    }
+
+    .dp-nm-lv-dt .profile-dp {
+        width: 54px;
+        height: 54px;
+    }
+
+    .dp-nm-lv-dt .profile-dp img {
+        border-radius: 10px;
+        width: 54px;
+        height: 54px;
+        object-fit: cover;
+    }
+
+    .dp-nm-lv-dt .profile-nm {
+        width: calc(100% - 70px);
+    }
+
+    .dp-nm-lv-dt .profile-lv {
+        top: 85px;
+    }
+
+    .fo-bo-id-st {
+        padding: 100px 0 20px 0;
+        margin: 0;
+    }
+
+    .fo-bo-id-st ul {
+        margin: 0;
+    }
+
+    .dp-nm-lv-dt .profile-nm ul {
+        gap: 10px;
+    }
+
+    .dp-nm-lv-dt .profile-nm button {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .fo-bo-id-st ul {
+        flex-wrap: wrap;
+    }
+
+    .fo-bo-id-st ul li {
+        width: 46.5%;
+    }
+
+    .fo-bo-id-st ul li a {
+        width: 100%;
+    }
+
+    .id-st-fo-fo {
+        margin-top: 10px;
+        margin-bottom: -14px;
+        margin-left: -14px;
+        overflow: auto;
+    }
+
+    .id-st-fo-fo ul {
+        gap: 0;
+    }
+
+    .id-st-fo-fo ul li a {
+        width: auto;
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width:761px) and (max-width:1023px) {
+    .profile-boxes .box {
+        flex: 100%;
+        max-width: 100%;
+        padding: 14px;
+        min-height: 300px;
+    }
+
+    .profile-boxes .box h3 {
+        font-size: 18px;
+    }
+
+    .profile-details {
+        padding: 14px;
+        overflow: hidden;
+    }
+
+    .profile-boxes .box p {
+        font-size: 14px;
+    }
+
+    .dp-nm-lv-dt .profile-dp {
+        width: 54px;
+        height: 54px;
+    }
+
+    .dp-nm-lv-dt .profile-dp img {
+        border-radius: 10px;
+        width: 54px;
+        height: 54px;
+        object-fit: cover;
+    }
+
+    .dp-nm-lv-dt .profile-nm {
+        width: calc(100% - 70px);
+    }
+
+    .dp-nm-lv-dt .profile-lv {
+        top: 85px;
+    }
+
+    .fo-bo-id-st {
+        padding: 100px 0 20px 0;
+        margin: 0;
+    }
+
+    .fo-bo-id-st ul {
+        margin: 0;
+    }
+
+    .dp-nm-lv-dt .profile-nm ul {
+        gap: 10px;
+    }
+
+    .dp-nm-lv-dt .profile-nm button {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .fo-bo-id-st ul {
+        flex-wrap: wrap;
+    }
+
+    .fo-bo-id-st ul li {
+        width: 46.5%;
+    }
+
+    .fo-bo-id-st ul li a {
+        width: 100%;
+    }
+
+    .id-st-fo-fo {
+        margin-top: 10px;
+        margin-bottom: -14px;
+        margin-left: -14px;
+        overflow: auto;
+    }
+
+    .id-st-fo-fo ul {
+        gap: 0;
+    }
+
+    .id-st-fo-fo ul li a {
+        width: auto;
+        padding: 8px 12px;
+    }
+}
